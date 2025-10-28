@@ -1,0 +1,151 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-dd48a2a46be3cfdec4bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_uavs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_my_uavs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_my_uavs_egg-b00c218286134400ea27.json",
+					"name" : "ament_cmake_python_build_my_uavs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_my_uavs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_my_uavs-c9aa340f8068092045f1.json",
+					"name" : "ament_cmake_python_copy_my_uavs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_uavs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_uavs_uninstall-09383edd4e17a1553eee.json",
+					"name" : "my_uavs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadrotor_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadrotor_controller-0b1e4e67f5e1e0254b8d.json",
+					"name" : "quadrotor_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadrotor_controller_k_tf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadrotor_controller_k_tf-988b19fa21329203a7ab.json",
+					"name" : "quadrotor_controller_k_tf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "quadrotor_controller_paths_urdf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-quadrotor_controller_paths_urdf-fc3655b39e563ef54406.json",
+					"name" : "quadrotor_controller_paths_urdf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "simple_movement::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-simple_movement-00ba3727785309fc8ca3.json",
+					"name" : "simple_movement",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "the_simplest_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-the_simplest_demo-91ee6f791e8863adcf40.json",
+					"name" : "the_simplest_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "two_quadrotors_lf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-two_quadrotors_lf-1eeccd8ef54540b4c039.json",
+					"name" : "two_quadrotors_lf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "two_quadrotors_paths::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-two_quadrotors_paths-40e5d208a587405a9a72.json",
+					"name" : "two_quadrotors_paths",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-91884ac37b8c57024ad3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ferbin/walle_ws/wall-e_ws/build/my_uavs",
+		"source" : "/home/ferbin/walle_ws/wall-e_ws/src/my_uavs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,3 @@
+[console_scripts]
+arduino_bridge = wall_e_control.ros2_arduino_bridge:main
+servo_control_ui = wall_e_control.servo_control_ui:main

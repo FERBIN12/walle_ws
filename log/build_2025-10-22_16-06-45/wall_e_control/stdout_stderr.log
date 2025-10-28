@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/wall_e_control/wall_e_control.egg-info
+writing ../../build/wall_e_control/wall_e_control.egg-info/PKG-INFO
+writing dependency_links to ../../build/wall_e_control/wall_e_control.egg-info/dependency_links.txt
+writing entry points to ../../build/wall_e_control/wall_e_control.egg-info/entry_points.txt
+writing requirements to ../../build/wall_e_control/wall_e_control.egg-info/requires.txt
+writing top-level names to ../../build/wall_e_control/wall_e_control.egg-info/top_level.txt
+writing manifest file '../../build/wall_e_control/wall_e_control.egg-info/SOURCES.txt'
+reading manifest file '../../build/wall_e_control/wall_e_control.egg-info/SOURCES.txt'
+writing manifest file '../../build/wall_e_control/wall_e_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ferbin/walle_ws/build/wall_e_control/build
+creating /home/ferbin/walle_ws/build/wall_e_control/build/lib
+creating /home/ferbin/walle_ws/build/wall_e_control/build/lib/wall_e_control
+copying wall_e_control/__init__.py -> /home/ferbin/walle_ws/build/wall_e_control/build/lib/wall_e_control
+copying wall_e_control/ros2_arduino_bridge.py -> /home/ferbin/walle_ws/build/wall_e_control/build/lib/wall_e_control
+copying wall_e_control/servo_control_ui.py -> /home/ferbin/walle_ws/build/wall_e_control/build/lib/wall_e_control
+running install
+running install_lib
+creating /home/ferbin/walle_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control
+copying /home/ferbin/walle_ws/build/wall_e_control/build/lib/wall_e_control/__init__.py -> /home/ferbin/walle_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control
+copying /home/ferbin/walle_ws/build/wall_e_control/build/lib/wall_e_control/ros2_arduino_bridge.py -> /home/ferbin/walle_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control
+copying /home/ferbin/walle_ws/build/wall_e_control/build/lib/wall_e_control/servo_control_ui.py -> /home/ferbin/walle_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control
+byte-compiling /home/ferbin/walle_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/ferbin/walle_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control/ros2_arduino_bridge.py to ros2_arduino_bridge.cpython-312.pyc
+byte-compiling /home/ferbin/walle_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control/servo_control_ui.py to servo_control_ui.cpython-312.pyc
+running install_data
+creating /home/ferbin/walle_ws/install/wall_e_control/share/ament_index
+creating /home/ferbin/walle_ws/install/wall_e_control/share/ament_index/resource_index
+creating /home/ferbin/walle_ws/install/wall_e_control/share/ament_index/resource_index/packages
+copying resource/wall_e_control -> /home/ferbin/walle_ws/install/wall_e_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/ferbin/walle_ws/install/wall_e_control/share/wall_e_control
+creating /home/ferbin/walle_ws/install/wall_e_control/share/wall_e_control/launch
+running install_egg_info
+Copying ../../build/wall_e_control/wall_e_control.egg-info to /home/ferbin/walle_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control-0.0.1-py3.12.egg-info
+running install_scripts
+Installing arduino_bridge script to /home/ferbin/walle_ws/install/wall_e_control/lib/wall_e_control
+Installing servo_control_ui script to /home/ferbin/walle_ws/install/wall_e_control/lib/wall_e_control
+writing list of installed files to '/home/ferbin/walle_ws/build/wall_e_control/install.log'

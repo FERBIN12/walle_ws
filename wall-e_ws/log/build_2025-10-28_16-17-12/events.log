@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.000113] (my_uavs) JobQueued: {'identifier': 'my_uavs', 'dependencies': OrderedDict()}
+[0.000180] (wall_e_control) JobQueued: {'identifier': 'wall_e_control', 'dependencies': OrderedDict()}
+[0.000204] (my_uavs) JobStarted: {'identifier': 'my_uavs'}
+[0.007075] (wall_e_control) JobStarted: {'identifier': 'wall_e_control'}
+[0.011063] (my_uavs) JobProgress: {'identifier': 'my_uavs', 'progress': 'cmake'}
+[0.011332] (my_uavs) Command: {'cmd': ['/usr/bin/cmake', '/home/ferbin/walle_ws/wall-e_ws/src/my_uavs', '-DCMAKE_INSTALL_PREFIX=/home/ferbin/walle_ws/wall-e_ws/install/my_uavs'], 'cwd': '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs', 'env': OrderedDict({'LINOROBOT2_BASE': '2wd', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'en_IN:en', 'USER': 'ferbin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ferbin', 'OLDPWD': '/home/ferbin/walle_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3298', 'SYSTEMD_EXEC_PID': '3943', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '228354', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ferbin', 'JOURNAL_STREAM': '8:30024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ferbin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': '/home/ferbin/workspaces/isaac_ros-dev/', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ferbin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ferbinspc:@/tmp/.ICE-unix/3754,unix/ferbinspc:/tmp/.ICE-unix/3754', 'INVOCATION_ID': 'a1d53b7ffee4403f8a69c576b710f71a', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7b006bef-f49d-41a3-b63f-d5b7d719268b', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/ferbin/.ignition/models:/home/ferbin/aeroswarm_ws/src/my_uavs/models', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ferbin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.093892] (my_uavs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.5.0\n'}
+[0.099512] (-) TimerEvent: {}
+[0.147657] (my_uavs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.5.0\n'}
+[0.163093] (my_uavs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199626] (-) TimerEvent: {}
+[0.232258] (my_uavs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.237976] (my_uavs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.238286] (my_uavs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.238709] (my_uavs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.245865] (my_uavs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299714] (-) TimerEvent: {}
+[0.317440] (my_uavs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.323418] (my_uavs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.323570] (my_uavs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.323756] (my_uavs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.337967] (my_uavs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.399837] (-) TimerEvent: {}
+[0.444155] (my_uavs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.499919] (-) TimerEvent: {}
+[0.536029] (my_uavs) StdoutLine: {'line': b'-- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.583962] (my_uavs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.597180] (my_uavs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.599986] (-) TimerEvent: {}
+[0.614217] (my_uavs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.630464] (my_uavs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.663078] (wall_e_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/wall_e_control', 'build', '--build-base', '/home/ferbin/walle_ws/wall-e_ws/build/wall_e_control/build', 'install', '--record', '/home/ferbin/walle_ws/wall-e_ws/build/wall_e_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ferbin/walle_ws/wall-e_ws/src/wall_e_control', 'env': {'LINOROBOT2_BASE': '2wd', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'en_IN:en', 'USER': 'ferbin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ferbin', 'OLDPWD': '/home/ferbin/walle_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3298', 'SYSTEMD_EXEC_PID': '3943', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '228354', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ferbin', 'JOURNAL_STREAM': '8:30024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ferbin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': '/home/ferbin/workspaces/isaac_ros-dev/', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ferbin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ferbinspc:@/tmp/.ICE-unix/3754,unix/ferbinspc:/tmp/.ICE-unix/3754', 'INVOCATION_ID': 'a1d53b7ffee4403f8a69c576b710f71a', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7b006bef-f49d-41a3-b63f-d5b7d719268b', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/ferbin/.ignition/models:/home/ferbin/aeroswarm_ws/src/my_uavs/models', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ferbin/walle_ws/wall-e_ws/build/wall_e_control', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ferbin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/ferbin/walle_ws/wall-e_ws/build/wall_e_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.699098] (my_uavs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.700070] (-) TimerEvent: {}
+[0.702791] (my_uavs) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.730460] (my_uavs) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.789520] (my_uavs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.800158] (-) TimerEvent: {}
+[0.817778] (my_uavs) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.839685] (wall_e_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.839872] (wall_e_control) StdoutLine: {'line': b'creating ../../build/wall_e_control/wall_e_control.egg-info\n'}
+[0.840631] (my_uavs) StdoutLine: {'line': b'-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.845609] (my_uavs) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[0.852789] (wall_e_control) StdoutLine: {'line': b'writing ../../build/wall_e_control/wall_e_control.egg-info/PKG-INFO\n'}
+[0.852940] (wall_e_control) StdoutLine: {'line': b'writing dependency_links to ../../build/wall_e_control/wall_e_control.egg-info/dependency_links.txt\n'}
+[0.853044] (wall_e_control) StdoutLine: {'line': b'writing entry points to ../../build/wall_e_control/wall_e_control.egg-info/entry_points.txt\n'}
+[0.853137] (wall_e_control) StdoutLine: {'line': b'writing requirements to ../../build/wall_e_control/wall_e_control.egg-info/requires.txt\n'}
+[0.853217] (wall_e_control) StdoutLine: {'line': b'writing top-level names to ../../build/wall_e_control/wall_e_control.egg-info/top_level.txt\n'}
+[0.853287] (wall_e_control) StdoutLine: {'line': b"writing manifest file '../../build/wall_e_control/wall_e_control.egg-info/SOURCES.txt'\n"}
+[0.880502] (wall_e_control) StdoutLine: {'line': b"reading manifest file '../../build/wall_e_control/wall_e_control.egg-info/SOURCES.txt'\n"}
+[0.880871] (wall_e_control) StdoutLine: {'line': b"writing manifest file '../../build/wall_e_control/wall_e_control.egg-info/SOURCES.txt'\n"}
+[0.881016] (wall_e_control) StdoutLine: {'line': b'running build\n'}
+[0.881095] (wall_e_control) StdoutLine: {'line': b'running build_py\n'}
+[0.881168] (wall_e_control) StdoutLine: {'line': b'creating /home/ferbin/walle_ws/wall-e_ws/build/wall_e_control/build\n'}
+[0.881363] (wall_e_control) StdoutLine: {'line': b'creating /home/ferbin/walle_ws/wall-e_ws/build/wall_e_control/build/lib\n'}
+[0.881441] (wall_e_control) StdoutLine: {'line': b'creating /home/ferbin/walle_ws/wall-e_ws/build/wall_e_control/build/lib/wall_e_control\n'}
+[0.881512] (wall_e_control) StdoutLine: {'line': b'copying wall_e_control/__init__.py -> /home/ferbin/walle_ws/wall-e_ws/build/wall_e_control/build/lib/wall_e_control\n'}
+[0.881582] (wall_e_control) StdoutLine: {'line': b'copying wall_e_control/ros2_arduino_bridge.py -> /home/ferbin/walle_ws/wall-e_ws/build/wall_e_control/build/lib/wall_e_control\n'}
+[0.881660] (wall_e_control) StdoutLine: {'line': b'copying wall_e_control/servo_control_ui.py -> /home/ferbin/walle_ws/wall-e_ws/build/wall_e_control/build/lib/wall_e_control\n'}
+[0.881728] (wall_e_control) StdoutLine: {'line': b'running install\n'}
+[0.885263] (wall_e_control) StdoutLine: {'line': b'running install_lib\n'}
+[0.898413] (wall_e_control) StdoutLine: {'line': b'creating /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control\n'}
+[0.898562] (wall_e_control) StdoutLine: {'line': b'copying /home/ferbin/walle_ws/wall-e_ws/build/wall_e_control/build/lib/wall_e_control/__init__.py -> /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control\n'}
+[0.898640] (wall_e_control) StdoutLine: {'line': b'copying /home/ferbin/walle_ws/wall-e_ws/build/wall_e_control/build/lib/wall_e_control/ros2_arduino_bridge.py -> /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control\n'}
+[0.898816] (wall_e_control) StdoutLine: {'line': b'copying /home/ferbin/walle_ws/wall-e_ws/build/wall_e_control/build/lib/wall_e_control/servo_control_ui.py -> /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control\n'}
+[0.898907] (wall_e_control) StdoutLine: {'line': b'byte-compiling /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control/__init__.py to __init__.cpython-312.pyc\n'}
+[0.899017] (wall_e_control) StdoutLine: {'line': b'byte-compiling /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control/ros2_arduino_bridge.py to ros2_arduino_bridge.cpython-312.pyc\n'}
+[0.899523] (wall_e_control) StdoutLine: {'line': b'byte-compiling /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control/servo_control_ui.py to servo_control_ui.cpython-312.pyc\n'}
+[0.900239] (-) TimerEvent: {}
+[0.900975] (wall_e_control) StdoutLine: {'line': b'running install_data\n'}
+[0.901119] (wall_e_control) StdoutLine: {'line': b'creating /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/share/ament_index\n'}
+[0.901159] (wall_e_control) StdoutLine: {'line': b'creating /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/share/ament_index/resource_index\n'}
+[0.901308] (wall_e_control) StdoutLine: {'line': b'creating /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/share/ament_index/resource_index/packages\n'}
+[0.901383] (wall_e_control) StdoutLine: {'line': b'copying resource/wall_e_control -> /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/share/ament_index/resource_index/packages\n'}
+[0.901427] (wall_e_control) StdoutLine: {'line': b'copying package.xml -> /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/share/wall_e_control\n'}
+[0.901462] (wall_e_control) StdoutLine: {'line': b'creating /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/share/wall_e_control/launch\n'}
+[0.901495] (wall_e_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.915656] (wall_e_control) StdoutLine: {'line': b'Copying ../../build/wall_e_control/wall_e_control.egg-info to /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/lib/python3.12/site-packages/wall_e_control-0.0.1-py3.12.egg-info\n'}
+[0.916087] (wall_e_control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.000433] (-) TimerEvent: {}
+[1.006198] (wall_e_control) StdoutLine: {'line': b'Installing arduino_bridge script to /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/lib/wall_e_control\n'}
+[1.006423] (wall_e_control) StdoutLine: {'line': b'Installing servo_control_ui script to /home/ferbin/walle_ws/wall-e_ws/install/wall_e_control/lib/wall_e_control\n'}
+[1.006534] (wall_e_control) StdoutLine: {'line': b"writing list of installed files to '/home/ferbin/walle_ws/wall-e_ws/build/wall_e_control/install.log'\n"}
+[1.022961] (wall_e_control) CommandEnded: {'returncode': 0}
+[1.031199] (wall_e_control) JobEnded: {'identifier': 'wall_e_control', 'rc': 0}
+[1.093323] (my_uavs) StdoutLine: {'line': b'-- Configuring done (1.1s)\n'}
+[1.100601] (-) TimerEvent: {}
+[1.116350] (my_uavs) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.125024] (my_uavs) StdoutLine: {'line': b'-- Build files have been written to: /home/ferbin/walle_ws/wall-e_ws/build/my_uavs\n'}
+[1.131490] (my_uavs) CommandEnded: {'returncode': 0}
+[1.131888] (my_uavs) JobProgress: {'identifier': 'my_uavs', 'progress': 'build'}
+[1.132368] (my_uavs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs', '--', '-j16', '-l16'], 'cwd': '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs', 'env': OrderedDict({'LINOROBOT2_BASE': '2wd', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'en_IN:en', 'USER': 'ferbin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ferbin', 'OLDPWD': '/home/ferbin/walle_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3298', 'SYSTEMD_EXEC_PID': '3943', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '228354', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ferbin', 'JOURNAL_STREAM': '8:30024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ferbin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': '/home/ferbin/workspaces/isaac_ros-dev/', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ferbin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ferbinspc:@/tmp/.ICE-unix/3754,unix/ferbinspc:/tmp/.ICE-unix/3754', 'INVOCATION_ID': 'a1d53b7ffee4403f8a69c576b710f71a', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7b006bef-f49d-41a3-b63f-d5b7d719268b', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/ferbin/.ignition/models:/home/ferbin/aeroswarm_ws/src/my_uavs/models', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ferbin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.172833] (my_uavs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/simple_movement.dir/src/simple_movement.cpp.o\x1b[0m\n'}
+[1.173081] (my_uavs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/the_simplest_demo.dir/src/the_simplest_demo.cpp.o\x1b[0m\n'}
+[1.173222] (my_uavs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/quadrotor_controller_paths_urdf.dir/src/quadrotor_controller_paths_urdf.cpp.o\x1b[0m\n'}
+[1.174445] (my_uavs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/two_quadrotors_lf.dir/src/two_quadrotors_lf.cpp.o\x1b[0m\n'}
+[1.175109] (my_uavs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/quadrotor_controller_k_tf.dir/src/quadrotor_controller_k_tf.cpp.o\x1b[0m\n'}
+[1.176147] (my_uavs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/quadrotor_controller.dir/src/quadrotor_controller.cpp.o\x1b[0m\n'}
+[1.177625] (my_uavs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/two_quadrotors_paths.dir/src/two_quadrotors_paths.cpp.o\x1b[0m\n'}
+[1.178762] (my_uavs) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_my_uavs\n'}
+[1.200730] (-) TimerEvent: {}
+[1.300975] (-) TimerEvent: {}
+[1.340895] (my_uavs) StdoutLine: {'line': b'running egg_info\n'}
+[1.341605] (my_uavs) StdoutLine: {'line': b'creating my_uavs.egg-info\n'}
+[1.357521] (my_uavs) StdoutLine: {'line': b'writing my_uavs.egg-info/PKG-INFO\n'}
+[1.357721] (my_uavs) StdoutLine: {'line': b'writing dependency_links to my_uavs.egg-info/dependency_links.txt\n'}
+[1.357845] (my_uavs) StdoutLine: {'line': b'writing top-level names to my_uavs.egg-info/top_level.txt\n'}
+[1.357933] (my_uavs) StdoutLine: {'line': b"writing manifest file 'my_uavs.egg-info/SOURCES.txt'\n"}
+[1.401099] (-) TimerEvent: {}
+[1.405183] (my_uavs) StdoutLine: {'line': b"reading manifest file 'my_uavs.egg-info/SOURCES.txt'\n"}
+[1.405552] (my_uavs) StdoutLine: {'line': b"writing manifest file 'my_uavs.egg-info/SOURCES.txt'\n"}
+[1.427338] (my_uavs) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_my_uavs_egg\n'}
+[1.501226] (-) TimerEvent: {}
+[1.601505] (-) TimerEvent: {}
+[1.701784] (-) TimerEvent: {}
+[1.802060] (-) TimerEvent: {}
+[1.902355] (-) TimerEvent: {}
+[2.002630] (-) TimerEvent: {}
+[2.102900] (-) TimerEvent: {}
+[2.203183] (-) TimerEvent: {}
+[2.303457] (-) TimerEvent: {}
+[2.403726] (-) TimerEvent: {}
+[2.504021] (-) TimerEvent: {}
+[2.604348] (-) TimerEvent: {}
+[2.704672] (-) TimerEvent: {}
+[2.804967] (-) TimerEvent: {}
+[2.905237] (-) TimerEvent: {}
+[3.005537] (-) TimerEvent: {}
+[3.105854] (-) TimerEvent: {}
+[3.206163] (-) TimerEvent: {}
+[3.306447] (-) TimerEvent: {}
+[3.406762] (-) TimerEvent: {}
+[3.507078] (-) TimerEvent: {}
+[3.607396] (-) TimerEvent: {}
+[3.707690] (-) TimerEvent: {}
+[3.807991] (-) TimerEvent: {}
+[3.908285] (-) TimerEvent: {}
+[4.008602] (-) TimerEvent: {}
+[4.108919] (-) TimerEvent: {}
+[4.209196] (-) TimerEvent: {}
+[4.309500] (-) TimerEvent: {}
+[4.409814] (-) TimerEvent: {}
+[4.510081] (-) TimerEvent: {}
+[4.610391] (-) TimerEvent: {}
+[4.710694] (-) TimerEvent: {}
+[4.810963] (-) TimerEvent: {}
+[4.911247] (-) TimerEvent: {}
+[5.011556] (-) TimerEvent: {}
+[5.111879] (-) TimerEvent: {}
+[5.212202] (-) TimerEvent: {}
+[5.312467] (-) TimerEvent: {}
+[5.412776] (-) TimerEvent: {}
+[5.513037] (-) TimerEvent: {}
+[5.613341] (-) TimerEvent: {}
+[5.713640] (-) TimerEvent: {}
+[5.813893] (-) TimerEvent: {}
+[5.914196] (-) TimerEvent: {}
+[6.014501] (-) TimerEvent: {}
+[6.114757] (-) TimerEvent: {}
+[6.215016] (-) TimerEvent: {}
+[6.315321] (-) TimerEvent: {}
+[6.415625] (-) TimerEvent: {}
+[6.515946] (-) TimerEvent: {}
+[6.616251] (-) TimerEvent: {}
+[6.716542] (-) TimerEvent: {}
+[6.816845] (-) TimerEvent: {}
+[6.917105] (-) TimerEvent: {}
+[7.017379] (-) TimerEvent: {}
+[7.117632] (-) TimerEvent: {}
+[7.217890] (-) TimerEvent: {}
+[7.318139] (-) TimerEvent: {}
+[7.418446] (-) TimerEvent: {}
+[7.518738] (-) TimerEvent: {}
+[7.618993] (-) TimerEvent: {}
+[7.719285] (-) TimerEvent: {}
+[7.819543] (-) TimerEvent: {}
+[7.919853] (-) TimerEvent: {}
+[8.020164] (-) TimerEvent: {}
+[8.120480] (-) TimerEvent: {}
+[8.179557] (my_uavs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable the_simplest_demo\x1b[0m\n'}
+[8.220633] (-) TimerEvent: {}
+[8.252010] (my_uavs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable two_quadrotors_lf\x1b[0m\n'}
+[8.296396] (my_uavs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable quadrotor_controller\x1b[0m\n'}
+[8.320741] (-) TimerEvent: {}
+[8.330598] (my_uavs) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable simple_movement\x1b[0m\n'}
+[8.420894] (-) TimerEvent: {}
+[8.521235] (-) TimerEvent: {}
+[8.581282] (my_uavs) StdoutLine: {'line': b'[ 78%] Built target two_quadrotors_lf\n'}
+[8.587543] (my_uavs) StdoutLine: {'line': b'[ 78%] Built target quadrotor_controller\n'}
+[8.589412] (my_uavs) StdoutLine: {'line': b'[ 78%] Built target the_simplest_demo\n'}
+[8.621334] (-) TimerEvent: {}
+[8.640685] (my_uavs) StdoutLine: {'line': b'[ 78%] Built target simple_movement\n'}
+[8.679099] (my_uavs) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable quadrotor_controller_k_tf\x1b[0m\n'}
+[8.721554] (-) TimerEvent: {}
+[8.821921] (-) TimerEvent: {}
+[8.922296] (-) TimerEvent: {}
+[8.934522] (my_uavs) StdoutLine: {'line': b'[ 85%] Built target quadrotor_controller_k_tf\n'}
+[9.022431] (-) TimerEvent: {}
+[9.089933] (my_uavs) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable quadrotor_controller_paths_urdf\x1b[0m\n'}
+[9.122594] (-) TimerEvent: {}
+[9.222963] (-) TimerEvent: {}
+[9.323345] (-) TimerEvent: {}
+[9.342986] (my_uavs) StdoutLine: {'line': b'[ 92%] Built target quadrotor_controller_paths_urdf\n'}
+[9.423566] (-) TimerEvent: {}
+[9.497825] (my_uavs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable two_quadrotors_paths\x1b[0m\n'}
+[9.523769] (-) TimerEvent: {}
+[9.624119] (-) TimerEvent: {}
+[9.724503] (-) TimerEvent: {}
+[9.750052] (my_uavs) StdoutLine: {'line': b'[100%] Built target two_quadrotors_paths\n'}
+[9.761163] (my_uavs) CommandEnded: {'returncode': 0}
+[9.761838] (my_uavs) JobProgress: {'identifier': 'my_uavs', 'progress': 'install'}
+[9.768015] (my_uavs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs'], 'cwd': '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs', 'env': OrderedDict({'LINOROBOT2_BASE': '2wd', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'LANGUAGE': 'en_IN:en', 'USER': 'ferbin', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/ferbin', 'OLDPWD': '/home/ferbin/walle_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '3298', 'SYSTEMD_EXEC_PID': '3943', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '228354', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'ferbin', 'JOURNAL_STREAM': '8:30024', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ferbin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': '/home/ferbin/workspaces/isaac_ros-dev/', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/ferbin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ferbinspc:@/tmp/.ICE-unix/3754,unix/ferbinspc:/tmp/.ICE-unix/3754', 'INVOCATION_ID': 'a1d53b7ffee4403f8a69c576b710f71a', 'GTK3_MODULES': 'xapp-gtk3-module', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:7b006bef-f49d-41a3-b63f-d5b7d719268b', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/home/ferbin/.ignition/models:/home/ferbin/aeroswarm_ws/src/my_uavs/models', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/ferbin/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[9.773353] (my_uavs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.773461] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/the_simplest_demo\n'}
+[9.775946] (my_uavs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/the_simplest_demo" to ""\n'}
+[9.776026] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/simple_movement\n'}
+[9.778439] (my_uavs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/simple_movement" to ""\n'}
+[9.778531] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller\n'}
+[9.780939] (my_uavs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller" to ""\n'}
+[9.781017] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller_k_tf\n'}
+[9.783650] (my_uavs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller_k_tf" to ""\n'}
+[9.783727] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller_paths_urdf\n'}
+[9.786587] (my_uavs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller_paths_urdf" to ""\n'}
+[9.786664] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/two_quadrotors_lf\n'}
+[9.789145] (my_uavs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/two_quadrotors_lf" to ""\n'}
+[9.789224] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/two_quadrotors_paths\n'}
+[9.792426] (my_uavs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/two_quadrotors_paths" to ""\n'}
+[9.792569] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/launch\n'}
+[9.792649] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/launch/two_ign_world_launch.py\n'}
+[9.792719] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/launch/ign_world_launch.py\n'}
+[9.792787] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/urdf\n'}
+[9.792854] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/urdf/r2.xacro\n'}
+[9.793045] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/urdf/r1.xacro\n'}
+[9.793186] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/rviz\n'}
+[9.793279] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/rviz/two_drones.rviz\n'}
+[9.793359] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/rviz/one_drone.rviz\n'}
+[9.793427] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/worlds\n'}
+[9.793498] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/worlds/my_custom_world.sdf\n'}
+[9.793566] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/worlds/two_quadrotors_world.sdf\n'}
+[9.793634] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src\n'}
+[9.793701] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/simple_movement.cpp\n'}
+[9.793787] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/two_quadrotors_paths.cpp\n'}
+[9.793863] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/quadrotor_controller_paths_urdf.cpp\n'}
+[9.793929] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/two_quadrotors_lf.cpp\n'}
+[9.793996] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/the_simplest_demo.cpp\n'}
+[9.794081] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/quadrotor_controller_k_tf.cpp\n'}
+[9.794158] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/quadrotor_controller.cpp\n'}
+[9.794245] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts\n'}
+[9.794313] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/two_quadrotors_lf.py\n'}
+[9.794398] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/quadrotor_controller_k_tf.py\n'}
+[9.794466] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/simple_movement.py\n'}
+[9.794549] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/hand_gesture_drone_controller.py\n'}
+[9.794616] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/the_simplest_demo.py\n'}
+[9.794699] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/quadrotor_controller_paths_urdf.py\n'}
+[9.794764] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/quadrotor_controller.py\n'}
+[9.794850] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models\n'}
+[9.794922] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1\n'}
+[9.794986] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/thumbnails\n'}
+[9.795053] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/thumbnails/3.png\n'}
+[9.795133] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/thumbnails/1.png\n'}
+[9.795220] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/thumbnails/2.png\n'}
+[9.795351] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/model.config\n'}
+[9.795433] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes\n'}
+[9.795514] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/pelican.dae\n'}
+[9.796619] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/propeller_cw.dae\n'}
+[9.796703] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/ardrone.dae\n'}
+[9.809283] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/x3.png\n'}
+[9.809893] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/iris.dae\n'}
+[9.824134] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/x3.dae\n'}
+[9.824395] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/propeller_ccw.dae\n'}
+[9.824636] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/my_drone.sdf\n'}
+[9.824732] (-) TimerEvent: {}
+[9.824895] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2\n'}
+[9.824997] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/thumbnails\n'}
+[9.825071] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/thumbnails/3.png\n'}
+[9.825140] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/thumbnails/1.png\n'}
+[9.825352] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/thumbnails/2.png\n'}
+[9.825494] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/model.config\n'}
+[9.825566] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes\n'}
+[9.825633] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/pelican.dae\n'}
+[9.826591] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/propeller_cw.dae\n'}
+[9.826702] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/ardrone.dae\n'}
+[9.839748] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/x3.png\n'}
+[9.840372] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/iris.dae\n'}
+[9.856380] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/x3.dae\n'}
+[9.856783] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/propeller_ccw.dae\n'}
+[9.856928] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/my_drone.sdf\n'}
+[9.857233] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/environment/pythonpath.sh\n'}
+[9.857463] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/environment/pythonpath.dsv\n'}
+[9.857557] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs-1.0.0-py3.12.egg-info\n'}
+[9.857632] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs-1.0.0-py3.12.egg-info/PKG-INFO\n'}
+[9.857703] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs-1.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[9.857798] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs-1.0.0-py3.12.egg-info/top_level.txt\n'}
+[9.857863] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs-1.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[9.857928] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs\n'}
+[9.858002] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs/__init__.py\n'}
+[9.883767] (my_uavs) StdoutLine: {'line': b"Listing '/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs'...\n"}
+[9.883887] (my_uavs) StdoutLine: {'line': b"Compiling '/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs/__init__.py'...\n"}
+[9.887190] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/the_simplest_demo.py\n'}
+[9.887316] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/simple_movement.py\n'}
+[9.887361] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller.py\n'}
+[9.887395] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller_k_tf.py\n'}
+[9.887425] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller_paths_urdf.py\n'}
+[9.887455] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/two_quadrotors_lf.py\n'}
+[9.887507] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/hand_gesture_drone_controller.py\n'}
+[9.887555] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/ament_index/resource_index/package_run_dependencies/my_uavs\n'}
+[9.887586] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/ament_index/resource_index/parent_prefix_path/my_uavs\n'}
+[9.887700] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/environment/ament_prefix_path.sh\n'}
+[9.887873] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/environment/ament_prefix_path.dsv\n'}
+[9.888015] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/environment/path.sh\n'}
+[9.888239] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/environment/path.dsv\n'}
+[9.888355] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/local_setup.bash\n'}
+[9.888476] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/local_setup.sh\n'}
+[9.888669] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/local_setup.zsh\n'}
+[9.888760] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/local_setup.dsv\n'}
+[9.888899] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/package.dsv\n'}
+[9.889054] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/ament_index/resource_index/packages/my_uavs\n'}
+[9.889111] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/cmake/my_uavsConfig.cmake\n'}
+[9.889239] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/cmake/my_uavsConfig-version.cmake\n'}
+[9.889377] (my_uavs) StdoutLine: {'line': b'-- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/package.xml\n'}
+[9.890616] (my_uavs) CommandEnded: {'returncode': 0}
+[9.899192] (my_uavs) JobEnded: {'identifier': 'my_uavs', 'rc': 0}
+[9.899602] (-) EventReactorShutdown: {}

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: wall-e-control
+Version: 0.0.1
+Summary: Wall-E robot control package with Arduino serial bridge
+Maintainer: ferbin
+Maintainer-email: ferbin@example.com
+License: MIT

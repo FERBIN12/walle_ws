@@ -1,0 +1,173 @@
+[0.012s] Invoking command in '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ferbin/walle_ws/wall-e_ws/src/my_uavs -DCMAKE_INSTALL_PREFIX=/home/ferbin/walle_ws/wall-e_ws/install/my_uavs
+[0.094s] -- The C compiler identification is GNU 11.5.0
+[0.148s] -- The CXX compiler identification is GNU 11.5.0
+[0.163s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.238s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.238s] -- Detecting C compile features
+[0.239s] -- Detecting C compile features - done
+[0.246s] -- Detecting CXX compiler ABI info
+[0.317s] -- Detecting CXX compiler ABI info - done
+[0.323s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.323s] -- Detecting CXX compile features
+[0.324s] -- Detecting CXX compile features - done
+[0.338s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.444s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.536s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.584s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.597s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.614s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.630s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.699s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.703s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.730s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.789s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.818s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.841s] -- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)
+[0.846s] -- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.093s] -- Configuring done (1.1s)
+[1.116s] -- Generating done (0.0s)
+[1.125s] -- Build files have been written to: /home/ferbin/walle_ws/wall-e_ws/build/my_uavs
+[1.131s] Invoked command in '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/ferbin/walle_ws/wall-e_ws/src/my_uavs -DCMAKE_INSTALL_PREFIX=/home/ferbin/walle_ws/wall-e_ws/install/my_uavs
+[1.132s] Invoking command in '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ferbin/walle_ws/wall-e_ws/build/my_uavs -- -j16 -l16
+[1.173s] [  7%] [32mBuilding CXX object CMakeFiles/simple_movement.dir/src/simple_movement.cpp.o[0m
+[1.173s] [ 14%] [32mBuilding CXX object CMakeFiles/the_simplest_demo.dir/src/the_simplest_demo.cpp.o[0m
+[1.173s] [ 21%] [32mBuilding CXX object CMakeFiles/quadrotor_controller_paths_urdf.dir/src/quadrotor_controller_paths_urdf.cpp.o[0m
+[1.174s] [ 28%] [32mBuilding CXX object CMakeFiles/two_quadrotors_lf.dir/src/two_quadrotors_lf.cpp.o[0m
+[1.175s] [ 35%] [32mBuilding CXX object CMakeFiles/quadrotor_controller_k_tf.dir/src/quadrotor_controller_k_tf.cpp.o[0m
+[1.176s] [ 42%] [32mBuilding CXX object CMakeFiles/quadrotor_controller.dir/src/quadrotor_controller.cpp.o[0m
+[1.178s] [ 50%] [32mBuilding CXX object CMakeFiles/two_quadrotors_paths.dir/src/two_quadrotors_paths.cpp.o[0m
+[1.179s] [ 50%] Built target ament_cmake_python_copy_my_uavs
+[1.341s] running egg_info
+[1.342s] creating my_uavs.egg-info
+[1.357s] writing my_uavs.egg-info/PKG-INFO
+[1.358s] writing dependency_links to my_uavs.egg-info/dependency_links.txt
+[1.358s] writing top-level names to my_uavs.egg-info/top_level.txt
+[1.358s] writing manifest file 'my_uavs.egg-info/SOURCES.txt'
+[1.405s] reading manifest file 'my_uavs.egg-info/SOURCES.txt'
+[1.405s] writing manifest file 'my_uavs.egg-info/SOURCES.txt'
+[1.427s] [ 50%] Built target ament_cmake_python_build_my_uavs_egg
+[8.180s] [ 57%] [32m[1mLinking CXX executable the_simplest_demo[0m
+[8.252s] [ 64%] [32m[1mLinking CXX executable two_quadrotors_lf[0m
+[8.296s] [ 71%] [32m[1mLinking CXX executable quadrotor_controller[0m
+[8.331s] [ 78%] [32m[1mLinking CXX executable simple_movement[0m
+[8.581s] [ 78%] Built target two_quadrotors_lf
+[8.587s] [ 78%] Built target quadrotor_controller
+[8.589s] [ 78%] Built target the_simplest_demo
+[8.641s] [ 78%] Built target simple_movement
+[8.679s] [ 85%] [32m[1mLinking CXX executable quadrotor_controller_k_tf[0m
+[8.934s] [ 85%] Built target quadrotor_controller_k_tf
+[9.090s] [ 92%] [32m[1mLinking CXX executable quadrotor_controller_paths_urdf[0m
+[9.343s] [ 92%] Built target quadrotor_controller_paths_urdf
+[9.498s] [100%] [32m[1mLinking CXX executable two_quadrotors_paths[0m
+[9.750s] [100%] Built target two_quadrotors_paths
+[9.761s] Invoked command in '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/ferbin/walle_ws/wall-e_ws/build/my_uavs -- -j16 -l16
+[9.768s] Invoking command in '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ferbin/walle_ws/wall-e_ws/build/my_uavs
+[9.773s] -- Install configuration: ""
+[9.773s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/the_simplest_demo
+[9.776s] -- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/the_simplest_demo" to ""
+[9.776s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/simple_movement
+[9.778s] -- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/simple_movement" to ""
+[9.778s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller
+[9.781s] -- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller" to ""
+[9.781s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller_k_tf
+[9.783s] -- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller_k_tf" to ""
+[9.784s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller_paths_urdf
+[9.786s] -- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller_paths_urdf" to ""
+[9.787s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/two_quadrotors_lf
+[9.789s] -- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/two_quadrotors_lf" to ""
+[9.789s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/two_quadrotors_paths
+[9.792s] -- Set non-toolchain portion of runtime path of "/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/two_quadrotors_paths" to ""
+[9.792s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/launch
+[9.792s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/launch/two_ign_world_launch.py
+[9.793s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/launch/ign_world_launch.py
+[9.793s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/urdf
+[9.793s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/urdf/r2.xacro
+[9.793s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/urdf/r1.xacro
+[9.793s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/rviz
+[9.793s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/rviz/two_drones.rviz
+[9.793s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/rviz/one_drone.rviz
+[9.793s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/worlds
+[9.793s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/worlds/my_custom_world.sdf
+[9.793s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/worlds/two_quadrotors_world.sdf
+[9.793s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src
+[9.794s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/simple_movement.cpp
+[9.794s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/two_quadrotors_paths.cpp
+[9.794s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/quadrotor_controller_paths_urdf.cpp
+[9.794s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/two_quadrotors_lf.cpp
+[9.794s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/the_simplest_demo.cpp
+[9.794s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/quadrotor_controller_k_tf.cpp
+[9.794s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/src/quadrotor_controller.cpp
+[9.794s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts
+[9.794s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/two_quadrotors_lf.py
+[9.794s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/quadrotor_controller_k_tf.py
+[9.794s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/simple_movement.py
+[9.794s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/hand_gesture_drone_controller.py
+[9.794s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/the_simplest_demo.py
+[9.795s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/quadrotor_controller_paths_urdf.py
+[9.795s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/scripts/quadrotor_controller.py
+[9.795s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models
+[9.795s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1
+[9.795s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/thumbnails
+[9.795s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/thumbnails/3.png
+[9.795s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/thumbnails/1.png
+[9.795s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/thumbnails/2.png
+[9.795s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/model.config
+[9.795s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes
+[9.795s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/pelican.dae
+[9.796s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/propeller_cw.dae
+[9.797s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/ardrone.dae
+[9.809s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/x3.png
+[9.810s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/iris.dae
+[9.824s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/x3.dae
+[9.824s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/meshes/propeller_ccw.dae
+[9.825s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r1/my_drone.sdf
+[9.825s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2
+[9.825s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/thumbnails
+[9.825s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/thumbnails/3.png
+[9.825s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/thumbnails/1.png
+[9.825s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/thumbnails/2.png
+[9.825s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/model.config
+[9.825s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes
+[9.825s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/pelican.dae
+[9.826s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/propeller_cw.dae
+[9.827s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/ardrone.dae
+[9.840s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/x3.png
+[9.840s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/iris.dae
+[9.856s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/x3.dae
+[9.857s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/meshes/propeller_ccw.dae
+[9.857s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/models/r2/my_drone.sdf
+[9.857s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/environment/pythonpath.sh
+[9.857s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/environment/pythonpath.dsv
+[9.857s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs-1.0.0-py3.12.egg-info
+[9.857s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs-1.0.0-py3.12.egg-info/PKG-INFO
+[9.858s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs-1.0.0-py3.12.egg-info/SOURCES.txt
+[9.858s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs-1.0.0-py3.12.egg-info/top_level.txt
+[9.858s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs-1.0.0-py3.12.egg-info/dependency_links.txt
+[9.858s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs
+[9.858s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs/__init__.py
+[9.884s] Listing '/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs'...
+[9.884s] Compiling '/home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/python3.12/site-packages/my_uavs/__init__.py'...
+[9.887s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/the_simplest_demo.py
+[9.887s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/simple_movement.py
+[9.887s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller.py
+[9.887s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller_k_tf.py
+[9.887s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/quadrotor_controller_paths_urdf.py
+[9.887s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/two_quadrotors_lf.py
+[9.887s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/lib/my_uavs/hand_gesture_drone_controller.py
+[9.887s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/ament_index/resource_index/package_run_dependencies/my_uavs
+[9.887s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/ament_index/resource_index/parent_prefix_path/my_uavs
+[9.888s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/environment/ament_prefix_path.sh
+[9.888s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/environment/ament_prefix_path.dsv
+[9.888s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/environment/path.sh
+[9.888s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/environment/path.dsv
+[9.888s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/local_setup.bash
+[9.888s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/local_setup.sh
+[9.888s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/local_setup.zsh
+[9.889s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/local_setup.dsv
+[9.889s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/package.dsv
+[9.889s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/ament_index/resource_index/packages/my_uavs
+[9.889s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/cmake/my_uavsConfig.cmake
+[9.889s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/cmake/my_uavsConfig-version.cmake
+[9.889s] -- Installing: /home/ferbin/walle_ws/wall-e_ws/install/my_uavs/share/my_uavs/package.xml
+[9.890s] Invoked command in '/home/ferbin/walle_ws/wall-e_ws/build/my_uavs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/ferbin/walle_ws/wall-e_ws/build/my_uavs
