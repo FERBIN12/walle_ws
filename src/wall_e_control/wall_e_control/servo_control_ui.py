@@ -25,7 +25,7 @@ class ServoKeyboard(Node):
             self.serial = serial.Serial(port, baud, timeout=1)
             time.sleep(2)  # Wait for Arduino to reset
             
-            # Clear any startup messages from Arduino
+            # Clear any startup messages from Arduinomhfkh
             self.serial.reset_input_buffer()
             self.serial.reset_output_buffer()
             
